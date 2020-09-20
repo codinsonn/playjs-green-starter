@@ -1,0 +1,19 @@
+{
+  "entry_script": "start",
+  "entry_file": "src/pages/index.js",
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native-web": "^0.13.12",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@expo/next-adapter": "^2.1.32",
+    "babel-preset-expo": "^8.2.3"
+  },
+  "scripts": {
+    "start": "next dev -p 3450",
+    "build": "next build"
+  }
+}
